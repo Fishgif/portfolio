@@ -5,13 +5,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .navmenu {
     display: flex;
+    
+    
 }
 
 body {
-    margin: 0px;`
+    margin: 0px;
     background-color: black;
     
   }
@@ -31,10 +35,18 @@ body {
     ;
 }
 .navmenuitem {
+
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 25px;
     color: white;
     font-weight: 100;
+    text-decoration: none;
+}
+
+.navmenuitem>a {
+  font-family:Arial, Helvetica, sans-serif;
+  color: inherit;
+  text-decoration: none;
 }
 
 .maindisplay {
@@ -58,7 +70,6 @@ body {
   }
 .products {
     flex: 1;
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -70,7 +81,13 @@ body {
     flex: 0 0 100%;
     margin: 10px;
   }
- 
+ .contact {
+   padding-top: 80px;
+  display: flex;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  
+ }
   
   .card > p {
     text-align: center;
